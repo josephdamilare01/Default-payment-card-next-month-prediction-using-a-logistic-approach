@@ -1,8 +1,8 @@
-library(tidyverse)
+# Unpacking the required packageslibrary(tidyverse)
 library(readxl)
-ucl <- read.csv(file.choose())
-# Unpacking the required packages
 library(dlookr)
+# loading the dataset
+ucl <- read.csv(file.choose())
 View(ucl)
 str(ucl)
 diagnose_outlier(ucl)
